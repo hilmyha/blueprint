@@ -26,7 +26,6 @@ span{
     display: flex;
     max-width: 80%;
     padding-top: 40px;
-    border: solid 1px black;
     margin: 0 auto;
     justify-content: flex-end;
 }
