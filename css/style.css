@@ -73,7 +73,6 @@ h3{
 }
 .container-3{
     background-color: whitesmoke;
-    border: solid 1px black;
 }
 .container input[type=text]{
     padding: 24px;
@@ -127,4 +126,9 @@ h3{
 }
 .col{
     flex-grow: 3;
+}
+.copyright{
+    background-color: #FFD35A;
+    padding: 20px;
+    text-align: center;
 }
