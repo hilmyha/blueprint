@@ -14,6 +14,12 @@ a{
 span{
     font-weight: 700;
 }
+h1{
+    font-weight: 400;
+}
+h3{
+    font-weight: 400;
+}
 
 /* header */
 .spotlight{
@@ -22,11 +28,15 @@ span{
     text-align: center;
     padding: 20px;
 }
+.spotlight p{
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 80%;
+}
 .navbar{
     display: flex;
     max-width: 80%;
     padding-top: 40px;
-    border: solid 1px black;
     margin: 0 auto;
     justify-content: flex-end;
 }
@@ -49,7 +59,6 @@ span{
 }
 .header h1{
     color: white;
-    font-weight: 400;
 }
 
 /* post-main */
@@ -59,9 +68,12 @@ span{
     padding: 50px;
 }
 .container-2{
-    text-align: center;
-    align-content: center;
+    display: flex;
     height: 500px;
+}
+.container-3{
+    background-color: whitesmoke;
+    border: solid 1px black;
 }
 .container input[type=text]{
     padding: 24px;
@@ -90,4 +102,29 @@ span{
     background-color: white;
     height: 200px;
     width: 400px;
+}
+.app{
+    text-align: right;
+    padding: 40px 80px;
+}
+.app img{
+    width: 50%;
+}
+.app-desc{
+    padding: 40px;
+}
+.app-desc h3{
+    color: grey;
+}
+
+/* footer */
+.footer{
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.col{
+    flex-grow: 3;
 }
